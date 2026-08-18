@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Carine Lima, Desenvolvedora Full Stack e graduanda em Engenharia de Software."
+    />
+    <title>Carine Lima | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <header class="header" id="header">
+      <div class="container header-content">
+        <a href="#home" class="logo"> Carine Lima<span>.</span> </a>
+        <button class="menu-button" id="menuButton" aria-label="Abrir menu" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="nav">
+          <a href="#sobre"> Sobre </a>
+
+          <a href="#stack"> Stack </a>
+
+          <a href="#projetos"> Projetos </a>
+
+          <a href="#processo"> Processo </a>
+
+          <a href="#formacao"> Formação </a>
+
+          <a href="#contato" class="nav-cta"> Vamos conversar </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-background"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <div class="status">
+              <span class="status-dot"></span>
+
+              Disponível para oportunidades
+            </div>
+
+            <p class="eyebrow">Olá, eu sou</p>
+
+            <h1>
+              Carine
+              <span>Lima.</span>
+            </h1>
+
+            <h2>
+              Desenvolvedora
+              <span class="gradient-text"> Full Stack </span>
+            </h2>
+
+            <p class="graduation">Graduanda em Engenharia de Software</p>
+
+            <p class="hero-description">
+              Transformo ideias e problemas reais em aplicações funcionais, intuitivas e pensadas
+              para quem realmente vai usá-las.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projetos" class="button button-primary"> Ver meus projetos </a>
+
+              <a
+                href="https://github.com/CarineLimma"target="_blank"rel="noopener noreferrer"
+                class="button button-outline" >
+                GitHub ↗
+              </a>
+
+              <a href="arquivo/Carine Lima.pdf" target="_blank"rel=" noopener noreferrer" 
+              class="button button-outline"> Baixar currículo ↓ </a>
+            </div>
+
+            <div class="hero-technologies">
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>SQL</span>
+              <span>Flask</span>
+            </div>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="neon-orbit orbit-one"></div>
+            <div class="neon-orbit orbit-two"></div>
+
+            <div class="code-floating code-one">const idea = build();</div>
+
+            <div class="code-floating code-two">while(learning) { grow(); }</div>
+
+            <div class="hero-photo-frame">
+              <img src="img/euliinda.jpg" alt="Carine Lima" class="hero-photo" />
+            </div>
+            <div class="developer-badge">
+              <span>FULL STACK</span>
+              <strong>DEVELOPER</strong>
+              <div class="badge-dots">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section about" id="sobre">
+        <div class="container">
+          <div class="section-tag reveal">01 / SOBRE MIM</div>
+
+          <div class="about-grid">
+            <div class="about-content reveal">
+              <h2>
+                Não comecei querendo apenas
+
+                <span class="gradient-text"> aprender código. </span>
+              </h2>
+
+              <p>
+                Minha jornada na tecnologia começou pela curiosidade de entender como as coisas
+                funcionavam por trás das telas.
+              </p>
+
+              <p>
+                Com o tempo, essa curiosidade virou desenvolvimento, projetos completos e vontade de
+                construir soluções que realmente tenham utilidade.
+              </p>
+
+              <p>
+                Hoje desenvolvo aplicações trabalhando entre front-end, back-end e banco de dados,
+                buscando unir lógica, experiência e propósito em cada projeto.
+              </p>
+            </div>
+
+            <div class="timeline reveal">
+              <article class="timeline-item">
+                <div class="timeline-dot"></div>
+
+                <div>
+                  <span class="timeline-year"> 2025 </span>
+
+                  <h3>Primeiros passos</h3>
+
+                  <p>Programação, lógica e desenvolvimento.</p>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-dot"></div>
+
+                <div>
+                  <span class="timeline-year"> Evolução </span>
+
+                  <h3>Python + Banco de Dados</h3>
+
+                  <p>Desenvolvimento de aplicações mais completas e conectadas.</p>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-dot"></div>
+
+                <div>
+                  <span class="timeline-year"> Full Stack </span>
+
+                  <h3>Aplicações completas</h3>
+
+                  <p>Da interface ao banco de dados.</p>
+                </div>
+              </article>
+
+              <article class="timeline-item">
+                <div class="timeline-dot active"></div>
+
+                <div>
+                  <span class="timeline-year"> 2026 </span>
+
+                  <h3>Construindo o próximo nível</h3>
+
+                  <p>Expandindo tecnologias, arquitetura e projetos.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stack" id="stack">
+        <div class="container">
+          <div class="section-tag reveal">02 / STACK</div>
+
+          <h2 class="section-title reveal">
+            As ferramentas mudam.
+
+            <br />
+
+            Resolver o problema
+
+            <span class="gradient-text"> vem primeiro. </span>
+          </h2>
+
+          <div class="stack-grid">
+            <article class="stack-card reveal">
+              <div class="stack-icon">&lt;/&gt;</div>
+
+              <h3>Back-end</h3>
+
+              <ul>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>APIs</li>
+              </ul>
+            </article>
+
+            <article class="stack-card reveal">
+              <div class="stack-icon">▣</div>
+
+              <h3>Front-end</h3>
+
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+            </article>
+
+            <article class="stack-card reveal">
+              <div class="stack-icon">◉</div>
+
+              <h3>Dados</h3>
+
+              <ul>
+                <li>SQL</li>
+                <li>SQLite</li>
+                <li>Supabase</li>
+              </ul>
+            </article>
+
+            <article class="stack-card reveal">
+              <div class="stack-icon">↗</div>
+
+              <h3>Em evolução</h3>
+
+              <ul>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Java</li>
+                <li>Tailwind</li>
+                <li>PHP</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projetos">
+        <div class="container">
+          <div class="section-tag reveal">03 / PROJETOS EM DESTAQUE</div>
+
+          <div class="projects-heading reveal">
+            <div>
+              <h2>
+                Projetos que começaram
+
+                <br />
+
+                <span class="gradient-text"> com um problema. </span>
+              </h2>
+            </div>
+
+            <p>
+              Cada projeto nasceu de uma necessidade diferente. Explore para conhecer não apenas o
+              resultado, mas também as decisões e desafios por trás do desenvolvimento.
+            </p>
+          </div>
+
+          <div class="projects-list">
+            <article class="project-card reveal">
+              <img src="img/sistemafinanceiro.jpg" alt="Sistema Financeiro" />
+              <div class="project-content">
+                <span class="project-number"> 01 </span>
+
+                <h3>Sistema Financeiro</h3>
+
+                <p>
+                  Aplicação Full Stack para gerenciamento de receitas, despesas, recorrências,
+                  histórico financeiro e análise de dados.
+                </p>
+
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>SQLite</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <button class="project-button" data-project="financeiro">Explorar projeto →</button>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img src="img/saas.png" alt="SaaS para Cafeterias" />
+
+              <div class="project-content">
+                <span class="project-number"> 02 </span>
+
+                <h3>SaaS para Cafeterias</h3>
+
+                <p>
+                  Plataforma desenvolvida para centralizar produtos, pedidos, cardápio, operações e
+                  relatórios em um único sistema.
+                </p>
+
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>SQL</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <button class="project-button" data-project="cafeteria">Explorar projeto →</button>
+              </div>
+            </article>
+
+
+            <article class="project-card reveal">
+              <img src="img/agenda.png" alt="Sistema de Agendamento" />
+
+              <div class="project-content">
+                <span class="project-number"> 03 </span>
+
+                <h3>Sistema de Agendamento</h3>
+
+                <p>
+                  Solução criada para organizar horários, serviços e a jornada entre cliente e
+                  estabelecimento.
+                </p>
+
+                <div class="tags">
+                  <span>Front-end</span>
+                  <span>Back-end</span>
+                  <span>Database</span>
+                </div>
+
+                <button class="project-button" data-project="agenda">Explorar projeto →</button>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img src="img/lista.png" alt="Lista de Compras" />
+
+              <div class="project-content">
+                <span class="project-number"> 03 </span>
+
+                <h3>Lista de Compras</h3>
+
+                <p>
+                  Aplicação interativa para organizar listas de compras, permitindo adicionar, remover e categorizar itens de forma prática, cálculo automático dos valores adicionados e acompanhamento da compra em tempo real.
+                </p>
+
+                <div class="tags">
+                  <span>Front-end</span>
+                  <span>Back-end</span>
+                  <span>Database</span>
+                </div>
+
+                <button class="project-button" data-project="lista">Explorar projeto →</button>
+              </div>
+            </article>
+            
+
+            <article class="project-card reveal">
+              <img src="img/landingpage.jpg" alt="Landing Page" />
+
+              <div class="project-content">
+                <span class="project-number"> 03 </span>
+
+                <h3>Landing Page</h3>
+
+                <p>
+                 Landing page responsiva desenvolvida para apresentar um produto ou serviço, com foco em conversão e experiência do usuário.
+                </p>
+
+                <div class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Responsivo</span>
+                </div>
+
+                <button class="project-button" data-project="landing">Explorar projeto →</button>
+              </div>
+            </article>
+            
+
+            <article class="project-card reveal">
+              <img src="img/jogo.png" alt="Jogo" />
+
+              <div class="project-content">
+                <span class="project-number"> 03 </span>
+
+                <h3>Simulador Estatístico da Mega-Sena</h3>
+
+                <p>
+                  Aplicação simula estatísticas de resultados da Mega-Sena, permitindo análise de padrões e tendências para auxiliar na tomada de decisões.
+                </p>
+
+                <div class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Lógica</span>
+                </div>
+
+                <button class="project-button" data-project="mega-sena">Explorar projeto →</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+  
+      <section class="section process" id="processo">
+        <div class="container">
+          <div class="section-tag reveal">04 / PROCESSO</div>
+
+          <h2 class="section-title reveal">
+            Do problema ao
+
+            <span class="gradient-text"> deploy. </span>
+          </h2>
+
+          <div class="process-grid reveal">
+            <article>
+              <span class="process-number"> 01 </span>
+
+              <h3>Entender</h3>
+
+              <p>Antes de pensar em código, entender o problema.</p>
+            </article>
+
+            <article>
+              <span class="process-number"> 02 </span>
+
+              <h3>Planejar</h3>
+
+              <p>Definir estrutura, dados, experiência e prioridades.</p>
+            </article>
+
+            <article>
+              <span class="process-number"> 03 </span>
+
+              <h3>Desenvolver</h3>
+
+              <p>Transformar decisões em uma aplicação funcional.</p>
+            </article>
+
+            <article>
+              <span class="process-number"> 04 </span>
+
+              <h3>Testar</h3>
+
+              <p>Encontrar os erros antes que o usuário encontre.</p>
+            </article>
+
+            <article>
+              <span class="process-number"> 05 </span>
+
+              <h3>Evoluir</h3>
+
+              <p>A primeira versão nunca precisa ser a última.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education" id="formacao">
+        <div class="container">
+          <div class="section-tag reveal">05 / FORMAÇÃO</div>
+
+          <h2 class="section-title reveal">
+            Entre código e
+
+            <span class="gradient-text"> aprendizado. </span>
+          </h2>
+
+          <div class="education-grid">
+            <article class="education-main reveal">
+              <span class="education-label"> GRADUAÇÃO </span>
+
+              <h3>Engenharia de Software</h3>
+
+              <p>Graduação em andamento</p>
+
+              <div class="education-divider"></div>
+
+              <small> Desenvolvimento • Arquitetura • Dados • Software </small>
+            </article>
+
+            <div class="education-side">
+              <article class="education-card reveal">
+                <span> FORMAÇÃO COMPLEMENTAR </span>
+
+                <h3>Cursos e estudos</h3>
+
+                <p>Aprendizado contínuo em desenvolvimento, tecnologia e engenharia de software.</p>
+
+                <div class="course-tags">
+                  <span>HarvardX</span>
+                  <span>Fundação Bradesco</span>
+                  <span>Curso em Vídeo</span>
+                </div>
+              </article>
+
+              <article class="education-card reveal">
+                <span> PRÓXIMO PASSO </span>
+
+                <h3>Continuar evoluindo</h3>
+
+                <p>Novas linguagens, frameworks, arquitetura e desafios reais.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+
+      <section class="section contact" id="contato">
+        <div class="container contact-grid">
+          <div class="contact-content reveal">
+            <div class="section-tag">06 / CONTATO</div>
+
+            <h2>
+              Vamos construir
+
+              <span class="gradient-text"> alguma coisa? </span>
+            </h2>
+
+            <p>Estou aberta a oportunidades, projetos e boas conversas sobre tecnologia.</p>
+
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/carinelimma/"> LinkedIn ↗ </a>
+
+              <a href="https://github.com/CarineLimma" target="_blank"> GitHub ↗ </a>
+
+              <a href="mailto:carinesoareslima@email.com"> E-mail ↗ </a>
+            </div>
+          </div>
+
+          <div class="contact-visual reveal">
+            <div class="mail-icon">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+ 
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <span> © 2026 Carine Lima </span>
+
+        <span>
+          Designed & developed by
+          <strong>Carine Lima</strong>
+        </span>
+
+        <span class="footer-code"> &lt;built with curiosity /&gt; </span>
+      </div>
+    </footer>
+
+   
+   <div class="modal" id="projectModal">
+
+    <div
+        class="modal-overlay"
+        id="modalOverlay">
+    </div>
+
+    <div class="modal-container">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+            aria-label="Fechar">
+            ×
+        </button>
+
+        <span
+            class="modal-type"
+            id="modalType">
+            FULL STACK
+        </span>
+
+        <h2 id="modalTitle">
+            Sistema Financeiro
+        </h2>
+
+        <p
+            class="modal-description"
+            id="modalDescription">
+        </p>
+
+        <div
+            class="modal-media"
+            id="modalMedia">
+        </div>
+
+        <div class="modal-information">
+
+            <div>
+                <h3>
+                    Funcionalidades
+                </h3>
+
+                <ul id="modalFeatures"></ul>
+            </div>
+            <div>
+                <h3>
+                    Tecnologias
+                </h3>
+
+                <div
+                    class="modal-tech"
+                    id="modalTech">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal-actions">
+
+            <a
+                href="#"
+                id="modalGithub"
+                target="_blank"
+                class="button button-outline">
+
+                Ver repositório GitHub ↗️
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
